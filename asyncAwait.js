@@ -1,10 +1,10 @@
 console.log("started")
-var n = 7;
+var n = prompt('Enter a Positive number : ')
 
 let isPrime = true;
 
 primeOrNot()
-
+result()
 async function primeOrNot() {
     try {
         if (n === 1) {
@@ -12,8 +12,8 @@ async function primeOrNot() {
         } else if (n > 1) {
             for (let i = 2; i < n; i++) {
                 if (n % i == 0) {
-                    isPrime = false;
-                    result();
+                    return isPrime = false;
+
                 }
             }
         }
