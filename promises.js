@@ -15,10 +15,8 @@ function votingAge(age) {
 var age = prompt("Enter the Age here: ");
 
 const p = votingAge(age);
-19
 p.then(() => {
-    console.log("The given age " + age + " is eligible for voting");
+    console.log(' The given age ', age ,' is eligible for voting ');
 }, p.catch(() => {
-    console.log("The given age " + age + " is NOT eligible for voting")
+    console.log(' The given age ', age, ' is eligible for voting ');
 }));
-
