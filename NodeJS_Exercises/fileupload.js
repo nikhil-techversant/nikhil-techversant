@@ -13,9 +13,7 @@ const fileStorage = multer.diskStorage({
     }
 })
 
-
 const upload = multer({ storage:fileStorage})
-
 
 app.get("/",(req,res)=>{
     res.send("<h1>Home Page</h1>");
@@ -39,11 +37,9 @@ app.get("/download",(req,res)=>{
     res.send("file downloaded") 
 })
 
-
 app.get("*",(req,res)=>{
     res.status(404).send("Page Not Found")
 })
-
 
 const PORT = process.env.PORT || 8088;
 app.listen(PORT,()=>console.log(`server started on ${PORT}`))

@@ -1,0 +1,19 @@
+project key  -  1083600382803
+
+Calendar ID
+c_c28382e66a9189d61e76ffe755d6aadd9fff08b2f045a39117a9e53d968c4451@group.calendar.google.com
+
+
+Calendar public URL
+https://calendar.google.com/calendar/embed?src=c_c28382e66a9189d61e76ffe755d6aadd9fff08b2f045a39117a9e53d968c4451%40group.calendar.google.com&ctz=UTC
+
+Embeded calendar code
+<iframe src="https://calendar.google.com/calendar/embed?src=c_c28382e66a9189d61e76ffe755d6aadd9fff08b2f045a39117a9e53d968c4451%40group.calendar.google.com&ctz=UTC" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+
+public address in iCal format
+https://calendar.google.com/calendar/ical/c_c28382e66a9189d61e76ffe755d6aadd9fff08b2f045a39117a9e53d968c4451%40group.calendar.google.com/public/basic.ics
+
+
+secret address in iCal format
+https://calendar.google.com/calendar/ical/c_c28382e66a9189d61e76ffe755d6aadd9fff08b2f045a39117a9e53d968c4451%40group.calendar.google.com/private-c1cd663c954130d0f005438cbb366bc8/basic.ics
